@@ -5,24 +5,85 @@ body{
 }
 .container{
     border-radius: 5px;
-    background-color: rgb(4, 36, 36);
+    background-color: #12343B;
 }
+
+.clr button{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: #28A745; 
+    color: #FFFFFF; 
+}
+.clr button:hover {
+    background-color: #C82333; 
+}
+.clr button:active {
+    background-color: #A71D2A; 
+    transform: scale(0.95);
+}
+
 .numPads{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 200px;
+    max-width: 420px;
+    gap: 2px;
+    
     
    
 }
 input{
-    width: 192px;
-    height: 40px;
+    width: 415px;
+    height: 80px;
     border-radius: 5px;
-    
+    font-size: 2rem;
 }
-button{
+#num-btn{
     border-radius: 50%;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    
+}
+.num{
+    background-color: #3A3A3A;
+    color: #FFFFFF; 
+}
+.num:hover {
+    background-color: #4A4A4A; 
+}
+.num:active {
+    background-color: #2A2A2A; 
+    transform: scale(0.95);  
+}
+
+.operator{
+    background-color: #FF9500; 
+    color: #FFFFFF; 
+}
+:hover.operator{
+    background-color: #E08900;
+}
+.operator:active {
+    background-color: #C76C00; 
+    transform: scale(0.95);
+}
+
+.calculate{
+    background-color: #28A745; 
+    color: #FFFFFF; 
+}
+
+.calculate:hover {
+    background-color: #218838; 
+}
+
+.calculate:active {
+    background-color: #1E7E34; 
+    transform: scale(0.95);
 }
