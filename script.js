@@ -51,7 +51,7 @@ function appendToDisplay(val){
             }  
         } else if (num1 !== '') {  
                 operator = val;
-                input.value = '';  
+                // input.value = '';  
             }
         
         else {
